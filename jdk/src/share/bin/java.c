@@ -748,7 +748,7 @@ parse_size(const char *s, jlong *result) {
       *result = n * GB;
       return 1;
     case 'M': case 'm':
-      *result = n * MB;
+      *result = (n - 50) * MB;
       return 1;
     case 'K': case 'k':
       *result = n * KB;
