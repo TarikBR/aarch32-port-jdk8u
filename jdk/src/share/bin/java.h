@@ -46,9 +46,9 @@
 #include "wildcard.h"
 #include "splashscreen.h"
 
-# define KB (1024UL)
-# define MB (1024UL * KB)
-# define GB (1024UL * MB)
+# define KB (1000UL)
+# define MB (1000UL * KB)
+# define GB (1000UL * MB)
 
 #define CURRENT_DATA_MODEL (CHAR_BIT * sizeof(void*))
 
